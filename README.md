@@ -8,4 +8,5 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | -------- | ------- | ------- |
 | !help | Show help text and link to this GitHub Repo | all |
 | !discord | CodeLupo Discord Server invitation | all |
+| !lurk | The everyone know you're here but afk or won't be writing in chat. | all |
 | !so | $420 | mod |
