@@ -9,6 +9,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | !help | Show help text and link to this GitHub Repo | all |
 | !vote | Vote on Active Poll. <br />Template: !vote {poll_name} {choice_num}. <br />E.g. !vote game 2 | all |
 | !newpoll | Create new poll. <br />Template: !newpoll {poll_name} "{option_name_1}" ... "{option_name_5}" {multi} {pred} {active_hr}hr. <br />E.g. !newpoll game "Rain World" "Hollow Knight" "Wasteland 3" 168hr | codeLupo |
+| !endpoll | End an active poll. <br />Template: !endpoll {poll_name} <br />E.g. !endpoll game | codeLupo |
 | !lurk | Let everyone know you're here but afk or won't be writing in chat. | all |
 | !so | Shoutout another streamer. Only on Twitch. <br/> Template: !so {tw_streamer_name} <br/> E.g. !so codelupo | mod |
 
