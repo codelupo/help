@@ -17,7 +17,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | Command | Description | Biscuits | AllowedUser | 
 | -------- | ------- | ------- | ------- |
 | !tts | Text To Speech app will read out your message. <br/> Template: !tts {message} <br/> E.g. !tts Meow!  | -1000 | all |
-| !roultete | Gamble your biscuits for a chance to win more. <br/> Template: !roulette {biscuits} <br/> E.g. !roulette 100, !roulette all | -x | all |
+| !roultete | Gamble your biscuits for a chance to win more. <br/> Template: !roulette {biscuits} <br/> E.g. !roulette 100, !roulette all | x | all |
 
 # Suggestions/Feedback
 codeLupo is always happy to receive any and all feedback/suggsetion. E.g. 
