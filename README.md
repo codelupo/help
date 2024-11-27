@@ -10,9 +10,14 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | !vote | Vote on Active Poll. <br />Template: !vote {poll_name} {choice_num}. <br />E.g. !vote game 2 | all |
 | !newpoll | Create new poll. <br />Template: !newpoll {poll_name} "{option_name_1}" ... "{option_name_5}" {multi} {pred} {active_hr}hr. <br />E.g. !newpoll game "Rain World" "Hollow Knight" "Wasteland 3" 168hr | codeLupo |
 | !endpoll | End an active poll. <br />Template: !endpoll {poll_name} <br />E.g. !endpoll game | codeLupo |
-| !tts | Text To Speech app will read out your message. This will cost 1000 channel points. <br/> Template: !tts {message} <br/> E.g. !tts Meow!  | all |
 | !lurk | Let everyone know you're here but afk or won't be writing in chat. | all |
 | !so | Shoutout another streamer. Only on Twitch. <br/> Template: !so {tw_streamer_name} <br/> E.g. !so codelupo | mod |
+
+# Biscuit/Point Usage
+| Command | Description | Biscuits | AllowedUser | 
+| -------- | ------- | ------- | ------- |
+| !tts | Text To Speech app will read out your message. <br/> Template: !tts {message} <br/> E.g. !tts Meow!  | -1000 | all |
+| !roultete | Gamble your biscuits for a chance to win more. <br/> Template: !roulette {biscuits} <br/> E.g. !roulette 100, !roulette all | -x | all |
 
 # Suggestions/Feedback
 codeLupo is always happy to receive any and all feedback/suggsetion. E.g. 
