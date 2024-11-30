@@ -20,6 +20,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | !tts | Text To Speech app will read out your message. <br/> Template: !tts {message} <br/> E.g. !tts Meow!  | -1000 | all |
 | !roultete | Gamble your biscuits for a chance to win more. <br/> Template: !roulette {biscuits} <br/> E.g. !roulette 100, !roulette all | x | all |
 | !rmeme | Will display a random meme. <br/> Template: !rmeme <br/> E.g. !rmeme | 1000 | all |
+
 Viewer must chat for the system recognise that the given viewer is watching. Viewer gets 5 biscuits / 1 min. The system tries to estimate for how long the viewer has watched the stream.
 - Individual message: System assume viewer has watched the stream for 10min.
 - 2 individual messages where gap is less than an hour:
