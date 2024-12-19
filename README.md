@@ -7,7 +7,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | Command | Description | AllowedUser | 
 | -------- | ------- | ------- |
 | !help | Show help text and link to this GitHub Repo | all |
-| !vote | Vote on Active Poll. <br />Template: !vote {poll_name} {choice_num}. <br />E.g. !vote game 2 | all |
+| !vote | Vote on Active Poll. You will be given 50 bisucits when you vote, also 50 biscuits + poll_duration when the poll finishes. <br />Template: !vote {poll_name} {choice_num}. <br />E.g. !vote game 2 | all |
 | !newpoll | Create new poll. <br />Template: !newpoll {poll_name} "{option_name_1}" ... "{option_name_5}" {multi} {pred} {active_hr}hr. <br />E.g. !newpoll game "Rain World" "Hollow Knight" "Wasteland 3" 168hr | codeLupo |
 | !endpoll | End an active poll. <br />Template: !endpoll {poll_name} <br />E.g. !endpoll game | codeLupo |
 | !lurk | Let everyone know you're here but afk or won't be writing in chat. | all |
@@ -20,7 +20,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | !tts | Text To Speech app will read out your message. <br/> Template: !tts {message} <br/> E.g. !tts Meow!  | -1000 | all |
 | !roultete | Gamble your biscuits for a chance to win more. <br/> Template: !roulette {biscuits} <br/> E.g. !roulette 100, !roulette all | x | all |
 | !rmeme | Will display a random meme. <br/> Template: !rmeme <br/> E.g. !rmeme | -1000 | all |
-| !soundboard <br/> !sb   | Play some audio from given list <br/> Template: !soundboard {audio_name} <br/> E.g. !soundboard meow, !sb 9000 <br/> [All options](soundboard/README.md) Available audio_name: meow, wawa, 9000, xeno | -500 | all |
+| !soundboard <br/> !sb   | Play some audio from given list. Each viewer can use !soundboard meow once for free every stream.  <br/> Template: !soundboard {audio_name} <br/> E.g. !soundboard meow, !sb 9000 <br/> [All options](soundboard/README.md) Available audio_name: meow, wawa, 9000, xeno | -500 | all |
 
 
 Viewer must chat for the system recognise that the given viewer is watching. Viewer gets 5 biscuits / 1 min. The system tries to estimate for how long the viewer has watched the stream.
