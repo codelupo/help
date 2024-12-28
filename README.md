@@ -17,6 +17,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | Command | Description | Biscuits | AllowedUser | 
 | -------- | ------- | ------- | ------- |
 | !biscuits <br/> !points | Bot will replay with how many biscuits you have. <br/> **Template**: !biscuits <br/> **E.g.** !biscuits | 0 | all |
+| !stats | Bot will replay with how many biscuits you have, All Time Biscuits and how much biscuits you lost to roulette. Each of the numbers will come back with ranking. The numbers are recalculated every 5min. <br/> **Template**: !stats <br/> **E.g.** !stats | 0 | all |
 | !tts | Text To Speech app will read out your message. Available alias name: default, fool, zeus. <br/> **Template**: !tts {alias_name} "{message}" <br/> !tts {message} <br/> **E.g.** !tts fool "Hey, little cat. Do you want an apple?" <br/> !tts Meow!  | -1000 | all |
 | !roulette | Gamble your biscuits for a chance to win more. <br/> **Template**: !roulette {biscuits} <br/> **E.g.** !roulette 100, !roulette all | x | all |
 | !rmeme | Will display a random meme. <br/> **Template**: !rmeme <br/> **E.g.** !rmeme | -1000 | all |
