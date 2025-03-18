@@ -7,7 +7,8 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | Command | Description | AllowedUser | 
 | -------- | ------- | ------- |
 | !help | Show help text and link to this GitHub Repo | all |
-| !vote | Vote on Active Poll. You will be given 50 bisucits when you vote, also 50 biscuits + poll_duration when the poll finishes. <br />**Template**: !vote {poll_name} {choice_num}. <br />**E.g.** !vote game 2 | all |
+| !vote (reg poll) | Vote on Active Poll. You will be given 25 bisucits when you vote and 75 biscuits + poll_duration when the poll finishes. <br />**Template**: !vote {poll_name} {choice_num}. <br />**E.g.** !vote game 2 | all |
+| !vote (pred poll) | Vote on Active Prediction Poll. You will be given 25 bisucits when you vote for prediction and regular poll.  also 75 biscuits + poll_duration when the poll finishes. <br />**Template**: !vote {poll_name} {choice_num}. <br />**E.g.** !vote game 2 | all |
 | !lurk | Let everyone know you're here but afk or won't be writing in chat. <br />**E.g.** !lurk | all |
 
 # Biscuit/Point Usage
