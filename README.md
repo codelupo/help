@@ -42,6 +42,7 @@ Viewer must chat for the system recognise that the given viewer is watching. Vie
 | !newpred | Create new prediction poll. Viewers can user points to predict the outcome. <br />**Template**: !newpred {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}{day\|hr\|min}. <br />**E.g.** !newpred win "Is codeLupo Him?" "Less than 30 tries" "More than 30 tries" 10min | mod |
 | !endpoll | End an active poll. Use this to end a poll early. <br />**Template**: !endpoll {poll_name} <br />**E.g.** !endpoll game | mod |
 | !endpred | Tell the system which prediction won. Viewers will be paid out afterwards. <br />**Template**: !endpred {poll_name} {won_option} <br />**E.g.** !endpred win 2 | mod |
+| !showpolls | Use this command to make polls appear on the screen. The polls will be on the screen for few mins, afterwards will disappear for 20~ mins. So it doesn't get in the way of the game. <br /> **Template**: !showpolls <br />**E.g.** !showpolls | mod |
 
 # Suggestions/Feedback
 codeLupo is always happy to receive any and all feedback/suggsetion. **E.g.** 
