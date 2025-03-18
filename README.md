@@ -8,10 +8,7 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | -------- | ------- | ------- |
 | !help | Show help text and link to this GitHub Repo | all |
 | !vote | Vote on Active Poll. You will be given 50 bisucits when you vote, also 50 biscuits + poll_duration when the poll finishes. <br />**Template**: !vote {poll_name} {choice_num}. <br />**E.g.** !vote game 2 | all |
-| !newpoll | Create new poll. <br />**Template**: !newpoll {poll_name} "{option_name_1}" ... "{option_name_5}" {multi} {pred} {active_hr}hr. <br />**E.g.** !newpoll game "Rain World" "Hollow Knight" "Wasteland 3" 168hr | codeLupo |
-| !endpoll | End an active poll. <br />**Template**: !endpoll {poll_name} <br />**E.g.** !endpoll game | codeLupo |
 | !lurk | Let everyone know you're here but afk or won't be writing in chat. <br />**E.g.** !lurk | all |
-| !so | Shoutout another streamer. Only on Twitch. <br/> **Template**: !so {tw_streamer_name} <br/> **E.g.** !so codelupo | mod |
 
 # Biscuit/Point Usage
 | Command | Description | Biscuits | AllowedUser | 
@@ -34,7 +31,16 @@ Viewer must chat for the system recognise that the given viewer is watching. Vie
   - Msg2 - Msg1 => time * biscuits * 0.75
 - Viewer uses !lurk
   - System assume the viewer is watching the stream for the next 2 hours
-  - Viewer gets full points for next 2 hours.  
+  - Viewer gets full points for next 2 hours.
+
+# Mod Chat Commands
+| Command | Description | AllowedUser | 
+| -------- | ------- | ------- |
+| !so | Shoutout another streamer. Only on Twitch. <br/> **Template**: !so {tw_streamer_name} <br/> **E.g.** !so codelupo | mod |
+| !newpoll | Create new poll. <br />**Template**: !newpoll {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}hr. <br />**E.g.** !newpoll game "Next Game codeLupo Plays" "Rain World" "Hollow Knight" "Wasteland 3" 168hr  | mod |
+| !newpred | Create new prediction poll. Viewers can user points to predict the outcome. <br />**Template**: !newpred {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}hr. <br />**E.g.** !newpred win "Is codeLupo Him?" "Less than 30 tries" "More than 30 tries" 10min | mod |
+| !endpoll | End an active poll. Use this to end a poll early. <br />**Template**: !endpoll {poll_name} <br />**E.g.** !endpoll game | mod |
+| !endpred | Tell the system which prediction won. Viewers will be paid out afterwards. <br />**Template**: !endpred {poll_name} {won_option} <br />**E.g.** !endpred win 2 | mod |
 
 # Suggestions/Feedback
 codeLupo is always happy to receive any and all feedback/suggsetion. **E.g.** 
