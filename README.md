@@ -37,8 +37,8 @@ Viewer must chat for the system recognise that the given viewer is watching. Vie
 | Command | Description | AllowedUser | 
 | -------- | ------- | ------- |
 | !so | Shoutout another streamer. Only on Twitch. <br/> **Template**: !so {tw_streamer_name} <br/> **E.g.** !so codelupo | mod |
-| !newpoll | Create new poll. <br />**Template**: !newpoll {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}{day|hr|min}. <br />**E.g.** !newpoll game "Next Game codeLupo Plays" "Rain World" "Hollow Knight" "Wasteland 3" 168hr  | mod |
-| !newpred | Create new prediction poll. Viewers can user points to predict the outcome. <br />**Template**: !newpred {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}{day|hr|min}. <br />**E.g.** !newpred win "Is codeLupo Him?" "Less than 30 tries" "More than 30 tries" 10min | mod |
+| !newpoll | Create new poll. <br />**Template**: !newpoll {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}{day\|hr\|min}. <br />**E.g.** !newpoll game "Next Game codeLupo Plays" "Rain World" "Hollow Knight" "Wasteland 3" 168hr  | mod |
+| !newpred | Create new prediction poll. Viewers can user points to predict the outcome. <br />**Template**: !newpred {poll_name} "{description}" "{option_name_1}" ... "{option_name_5}" {active_hr}{day\|hr\|min}. <br />**E.g.** !newpred win "Is codeLupo Him?" "Less than 30 tries" "More than 30 tries" 10min | mod |
 | !endpoll | End an active poll. Use this to end a poll early. <br />**Template**: !endpoll {poll_name} <br />**E.g.** !endpoll game | mod |
 | !endpred | Tell the system which prediction won. Viewers will be paid out afterwards. <br />**Template**: !endpred {poll_name} {won_option} <br />**E.g.** !endpred win 2 | mod |
 
