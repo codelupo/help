@@ -10,6 +10,8 @@ A variety Streamer. Stay Awesome, Stay Safe, Good Meow.
 | !vote (reg poll) | Vote on Active Poll. You will be given 25 bisucits when you vote and 75 biscuits + poll_duration when the poll finishes. You can vote one of the following ways. If you don't provide a poll_name, the poll must be showing on the screen. <br />**Template**:  <br /> !vote {poll_name} {choice_num}. <br /> !vote {choice_num}  <br /> {choice_num} <br /> **E.g.** <br /> !vote game 2 <br /> !vote 2 <br /> 2 | all |
 | !vote (pred poll) | Vote on Active Prediction Poll. You will be given 25 bisucits when you vote for free. You must use at least 50 biscuits to vote. You can vote one of the following ways. If you don't provide a poll_name, the poll must be showing on the screen. <br /> **Template**: <br />  !vote {poll_name} {choice_num} {biscuits} <br /> !vote {choice_num} {biscuits} <br /> {choice_num} {biscuits} <br /> **E.g.** <br /> !vote win 2 1500 <br /> !vote 2 1500  <br /> 2 1500  | all |
 | !lurk | Let everyone know you're here but afk or won't be writing in chat. <br />**E.g.** !lurk | all |
+| !betterttv | Link to see all available betterTTV Emotes <br />**E.g.** !betterttv | all |
+
 
 # Biscuit/Point Usage
 | Command | Description | Biscuits | AllowedUser | 
